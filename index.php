@@ -12,8 +12,8 @@
     <title>Show Video</title>
 </head>
 <body>
-    <?php if(file_exists('http://localhost/serviceVideo/video/'.$name.'.mp4')){ ?>
-        <video controls="" autoplay="" name="media" width="680px"><source src=<?php echo 'http://localhost/serviceVideo/video/'.$name.'.mp4' ?> type="video/mp4"></video>
+    <?php if(file_exists('https://integratto.mx/desarrollo/wordpress-demo/wp-content/uploads/woocommerce_uploads/alg_uploads/checkout_files_upload/'.$name.'.mp4')){ ?>
+        <video controls="" autoplay="" name="media" width="680px"><source src=<?php echo 'https://integratto.mx/desarrollo/wordpress-demo/wp-content/uploads/woocommerce_uploads/alg_uploads/checkout_files_upload/'.$name.'.mp4' ?> type="video/mp4"></video>
     <?php }else{ ?>
         <p>Video not found</p>
     <?php } ?>
